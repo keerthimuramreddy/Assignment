@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignment.PostCommentsAssessment">
+
+    <StackLayout Padding="20">
+        <Label Text="Enter FirstName:" />
+        <Entry x:Name="firstNameEntry" />
+
+        <Label Text="Enter LastName:" />
+        <Entry x:Name="lastNameEntry" />
+
+        <Label Text="Enter Comments:" />
+        <Entry x:Name="commentsEntry" />
+
+        <Button Text="Post" Clicked="OnPostClicked" />
+        <Button Text="Clear" Clicked="OnClearClicked" />
+    </StackLayout>
+</ContentPage>
